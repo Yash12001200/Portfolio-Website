@@ -49,6 +49,7 @@ const Navbar = () => {
               href='#contact'
               onClick={toggleNavList}
               className='link link--nav'
+           
             >
               Contact
             </a>

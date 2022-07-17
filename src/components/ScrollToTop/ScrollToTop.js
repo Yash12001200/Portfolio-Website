@@ -12,11 +12,18 @@ const ScrollToTop = () => {
     window.addEventListener('scroll', toggleVisibility)
     return () => window.removeEventListener('scroll', toggleVisibility)
   }, [])
+ 
+  const mystyle = {
+   color:"white",
+   width: "auto",
+   height: "auto",
+   
+  };
 
   return isVisible ? (
     <div className='scroll-top'>
       <a href='#top'>
-        <ArrowUpwardIcon fontSize='midium' />
+        <ArrowUpwardIcon fontSize='midium' style={mystyle} />
       </a>
     </div>
   ) : null

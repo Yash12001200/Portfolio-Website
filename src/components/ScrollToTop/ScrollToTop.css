@@ -1,8 +1,12 @@
 .scroll-top {
   position: fixed;
   bottom: 2em;
+  width: 50px;
   right: 4em;
-  background-color: transparent;
+  height: 50px;
+  padding: 10px;
+  background-color: var(--clr-primary);
+  border-radius: 50%;
 }
 
 @media (max-width: 900px) {

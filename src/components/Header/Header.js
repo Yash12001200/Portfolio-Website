@@ -9,7 +9,7 @@ const Header = () => {
     <header className='header center'>
       <h3>
         {homepage ? (
-          <a href={homepage} className=' link1 hovicon effect-2 sub-b'>
+          <a href={homepage} className=' link1 hovicon effect-2 sub-b glow-on-hover'>
             {title}
           </a>
         ) : (

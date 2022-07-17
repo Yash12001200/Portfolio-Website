@@ -6,7 +6,7 @@
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  --clr-bg: #f5f6f9;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -104,17 +104,7 @@ main {
   color: var(--clr-bg);
 }
 
-.btn--outline:before {
-  content: '';
-  position: absolute;
-  background-color: var(--clr-primary);
-  right: 100%;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  transition: right 0.2s ease-in-out;
-}
+
 
 .btn--outline:hover:before,
 .btn--outline:focus:before {

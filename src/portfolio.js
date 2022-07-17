@@ -1,71 +1,77 @@
+
+
 const header = {
-  // all the properties are optional - can be left empty or deleted
+
   homepage: '/',
   title: 'YM',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
+
   name: 'Yash Makwana',
-  role: 'Front End Engineer',
+  role: 'Full Stack Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I am a full stack developer. I enjoy writing clean code, building beautiful user interfaces.I’m specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, AI related technologies.',
   resume: 'https://example.com',
-  social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
-  },
+ 
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+
   {
     name: 'Project 1',
+    img: '/images/forum.png',
+    img1: '/images/forum.png',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['PHP', 'HACK', 'CSS'],
+    sourceCode: 'https://github.com/Yashmakwanab/Forum-Website',
+    livePreview: 'https://forum-webapp.000webhostapp.com/',
   },
   {
     name: 'Project 2',
+    img: '/images/port.png',
+    img1: '/images/portfolio.png',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+    stack: ['SASS', 'TYPESCRIPT', 'REACT'],
+    sourceCode: 'https://github.com/Yashmakwanab/Portfolio-Website',
     livePreview: 'https://github.com',
   },
   {
     name: 'Project 3',
+    img: '/images/shoes1.jpg',
+    img1: '/images/shoes1.jpg',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML', 'JAVASCRIPT', 'CSS'],
+    sourceCode: 'https://github.com/Yashmakwanab/shoes-cart',
+    livePreview: 'https://yashdevloped.000webhostapp.com/',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+
+ { name:'HTML', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"},
+ { name:'CSS', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"},
+ { name:'JavaScript', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"},
+ { name:'TypeScript', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"},
+ { name:'ReactJs', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"},
+ { name:'NextJs', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"},
+ { name:'SASS', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"},
+ { name:'Material UI', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"},
+ { name:'Git', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"},
+ { name:'Php', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"},
+ { name:'Laravel', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"},
+ { name:'NodeJs', img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"},
 ]
 
+          
 const contact = {
-  // email is optional - if left empty Contact section won't show up
+
   email: 'yashmakwanab57@gmail.com',
+  github: 'https://github.com/Yashmakwanab',
+  linkedin: 'https://www.linkedin.com/in/yash-makwana-9a1409219',
 }
 
 export { header, about, projects, skills, contact }

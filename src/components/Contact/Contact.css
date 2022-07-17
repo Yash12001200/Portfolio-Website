@@ -1,3 +1,55 @@
 .contact {
   flex-direction: column;
+ 
 }
+.contactbox{
+  display: flex;
+}
+.contactbox a{
+  margin: 5px;
+  background-color: var( --clr-bg-alt);
+}
+
+.rainbow{
+  font-weight: bold;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 0.8rem 1.4rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+.rainbow-5:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+     
+     
+     
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+

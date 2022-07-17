@@ -4,12 +4,17 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  background-color: var( --clr-bg-alt) ;
+  border-radius: 10px;
 }
 
 .project:hover {
   transform: translateY(-7px);
 }
-
+.project img{
+  width: 100%;
+  padding-top: 10px;
+}
 .project__description {
   margin-top: 1em;
 }
