@@ -4,10 +4,12 @@
 }
 .contactbox{
   display: flex;
+  flex-wrap: wrap;
 }
 .contactbox a{
   margin: 5px;
   background-color: var( --clr-bg-alt);
+
 }
 
 .rainbow{
