@@ -1,6 +1,7 @@
 import { about } from '../../portfolio'
 import './About.scss'
 
+
 const About = () => {
   const { name, role, description, resume, } = about
 
@@ -17,7 +18,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume} target="blank">
+          <a href={process.env.PUBLIC_URL + resume} target="blank">
             <button className='button' type="button">
               Resume
               <div className='button__horizontal'/>
